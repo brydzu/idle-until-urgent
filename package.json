@@ -4,7 +4,7 @@
   "description": "Defer JS work until the browser has a chance to breathe",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test.js | tape-run | faucet && node test.js | faucet && jsmd readme.md"
+    "test": "browserify test.js | tape-run"
   },
   "repository": {
     "type": "git",
